@@ -1,6 +1,12 @@
 # Windows-Event-Log-Analysis-Detecting-Failed-Login-Attempts
 ## Windows Event Log Analysis
 
-The screenshot below shows multiple failed login attempts (Event ID 4625) detected in Windows Security logs.
+## Detecting Failed Login Attempts (Event ID 4625)
 
-![Failed Login Detection](failed-login-detection.png)
+This project demonstrates how to detect failed login attempts using Windows Security logs.
+
+Using Windows Event Viewer, I filtered Security logs for **Event ID 4625**, which represents failed login attempts. Multiple audit failure events indicate possible brute-force or unauthorized access attempts.
+
+### Screenshot
+
+![Windows Failed Login Events](windows-failed-login-events.png)
